@@ -1,28 +1,39 @@
-Expense Tracker
-👋 Welcome
+Expense Tracker 👋 Welcome
 
 Welcome to the Expense Tracker – a modern MERN stack application to record, categorize, and analyze your expenses. Track your spending with an interactive dashboard and charts.
 
 📌 Project Info
 
-Built with the MERN stack (MongoDB, Express, React, Node.js), this project demonstrates a full-stack workflow with modern tools and libraries. It is responsive, secure, and deployable on cloud platforms like Vercel or Netlify.
+Built with the MERN stack (MongoDB, Express, React, Node.js).
+
+Demonstrates a full-stack workflow with modern tools and libraries.
+
+Fully responsive, secure, and deployable on cloud platforms like Vercel or Netlify.
 
 📝 How to Edit the Code
 1. Locally using an IDE
-# Clone the repository
+
+Clone the repository:
+
 git clone <YOUR_GIT_URL>
 
-# Navigate to the project directory
+
+Navigate to the project directory:
+
 cd <YOUR_PROJECT_NAME>
 
-# Install dependencies
+
+Install dependencies:
+
 npm install
 
-# Start the development server
+
+Start the development server:
+
 npm run dev
 
 
-Make changes, commit, and push — updates reflect in GitHub.
+Make changes, commit, and push → updates reflect in GitHub.
 
 2. Directly on GitHub
 
@@ -57,28 +68,38 @@ Edit in the browser and commit changes directly.
 🗄️ MongoDB Atlas – Database
 
 🚀 Deployment
-Vercel
+1. Vercel
 
-Go to Vercel
-, import your repo.
+Go to Vercel and import your repo.
 
-Set build command: npm run build
+Set build command:
 
-Output directory: dist
+npm run build
+
+
+Output directory:
+
+dist
+
 
 Add environment variables (MONGO_URI, JWT_SECRET, etc.)
 
 Deploy 🚀
 
-Netlify
+2. Netlify
 
-Go to Netlify
-, import your repo.
+Go to Netlify and import your repo.
 
-Build command: npm run build
+Build command:
 
-Publish directory: dist
+npm run build
 
-Add environment variables
+
+Publish directory:
+
+dist
+
+
+Add environment variables.
 
 Deploy 🚀
