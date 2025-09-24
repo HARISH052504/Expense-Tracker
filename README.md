@@ -1,105 +1,91 @@
-Expense Tracker 👋 Welcome
+*Expense Tracker*
+Overview
 
-Welcome to the Expense Tracker – a modern MERN stack application to record, categorize, and analyze your expenses. Track your spending with an interactive dashboard and charts.
+The Expense Tracker is a full-stack web application that helps users manage their personal finances by tracking income, expenses, and budgets in real-time. It provides an intuitive interface to monitor financial activities and gain insights into spending habits.
 
-📌 Project Info
+Features
 
-Built with the MERN stack (MongoDB, Express, React, Node.js).
+Add Income & Expenses: Easily record all financial transactions.
 
-Demonstrates a full-stack workflow with modern tools and libraries.
+Categorization: Classify expenses and income by categories.
 
-Fully responsive, secure, and deployable on cloud platforms like Vercel or Netlify.
+Dashboard Overview: View total income, expenses, and balance at a glance.
 
-📝 How to Edit the Code
-1. Locally using an IDE
+Transaction History: See a detailed list of all past transactions.
 
-Clone the repository:
+Responsive Design: Works seamlessly on desktop and mobile devices.
 
-git clone <YOUR_GIT_URL>
+Technologies Used
+
+Frontend: React.js, HTML, CSS, JavaScript
+
+Backend: Node.js, Express.js
+
+Database: MongoDB
+
+Authentication: JWT (JSON Web Tokens)
+
+Version Control: Git & GitHub
+
+Installation
+
+Clone the repository
+
+git clone https://github.com/<your-username>/Expense-Tracker.git
+cd Expense-Tracker
 
 
-Navigate to the project directory:
+Install dependencies
 
-cd <YOUR_PROJECT_NAME>
+# For backend
+cd backend
+npm install
 
-
-Install dependencies:
-
+# For frontend
+cd ../frontend
 npm install
 
 
-Start the development server:
+Create a .env file in backend
 
-npm run dev
-
-
-Make changes, commit, and push → updates reflect in GitHub.
-
-2. Directly on GitHub
-
-Open the file in your repository.
-
-Click ✏️ Edit.
-
-Make changes and commit.
-
-3. Using GitHub Codespaces
-
-Go to the repo’s main page.
-
-Click Code → Codespaces → Create new codespace.
-
-Edit in the browser and commit changes directly.
-
-🛠️ Tech Stack
-
-⚛️ React – Frontend
-
-⚡ Vite – Fast frontend builds
-
-🟦 TypeScript – Type safety
-
-🎨 Tailwind CSS – Styling
-
-🎨 shadcn/ui – UI components
-
-🌐 Express.js – Backend REST API
-
-🗄️ MongoDB Atlas – Database
-
-🚀 Deployment
-1. Vercel
-
-Go to Vercel and import your repo.
-
-Set build command:
-
-npm run build
+DATABASE=<your MongoDB connection string>
+PORT=3000
+JWT_SECRET=<your-secret-key>
 
 
-Output directory:
+Run the project
 
-dist
+# Backend
+cd backend
+npm start
 
-
-Add environment variables (MONGO_URI, JWT_SECRET, etc.)
-
-Deploy 🚀
-
-2. Netlify
-
-Go to Netlify and import your repo.
-
-Build command:
-
-npm run build
+# Frontend
+cd ../frontend
+npm start
 
 
-Publish directory:
+Open http://localhost:3000 (backend) and http://localhost:5173 (frontend) in your browser.
 
-dist
+Usage
 
+Sign up or log in with existing credentials.
 
-Add environment variables.
+Add and categorize income and expenses.
 
-Deploy 🚀
+Track your balance and analyze spending patterns.
+
+Review past transactions and filter by category or date.
+
+Contributing
+
+Contributions are welcome!
+
+Fork the repository
+
+Create a feature branch (git checkout -b feature-name)
+
+Commit your changes (git commit -m "Add feature")
+
+Push to the branch (git push origin feature-name)
+
+Open a Pull Request
